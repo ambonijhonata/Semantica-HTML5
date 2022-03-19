@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estrutura semântica do HTML5</title>
+</head>
+<body>
+	<!-- //CABEÇALHO -->
+	<header>
+		<hgroup>
+			<h1>Título do Sites</h1> 
+			<h2>Subtítulo do Sites</h2>
+		</hgroup>
+		<!-- //nav: BLOCO DE LINKS IMPORTANTES DA PÁGINA -->
+		<nav>
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+			</ul>
+		</nav>		
+	</header>
+
+	<!-- //CONTEÚDO -->
+	<main>
+		<!-- //EXEMPLO DE ARTIGO 01-->
+		<article>
+			<header>
+				<h2>Título do artigo</h2>
+				<p>Subtítulo do artigo</p>
+			</header>
+			<section>
+				<figure>
+					<img src="" alt="palavra chave ou descrição" width="300" height="250">
+				</figure>
+				<aside>
+					<p>Descrição do artigo</p>
+				</aside>
+			</section>
+			<footer>
+				<p>Postado por Jhonata Vieira Amboni em 19/03/2022 as 18:42</p>
+				<time datetime="2022-03-19 18:42">Data da postagem</time>
+			</footer>
+		</article>
+
+		<!-- //EXEMPLO DE ARTIGO 02-->
+		<article>
+			<header>
+				<h2>Título do artigo</h2>
+				<p>Subtítulo do artigo</p>
+			</header>
+			<section>
+				<figure>
+					<img src="" alt="palavra chave ou descrição" width="300" height="250">
+				</figure>
+				<aside>
+					<p>Descrição do artigo</p>
+				</aside>
+			</section>
+			<footer>
+				<p>Postado por Jhonata Vieira Amboni em <time datetime="2022-03-19 18:42">19/03/2022 18:42.</time></p>
+			</footer>
+		</article>
+	</main>
+
+	<!-- SIDE BAR DIREITA COM RELAÇÃO AO ARTIGO -->
+	<aside>
+		<section>
+			<h2>Seção do arigo relacionados</h2>
+			<p>Conteúdo da section 01</p>
+		</section>
+
+		<section>
+			<h2>Destaques do artigo relacionados</h2>
+			<p>Conteúdo da section 01</p>
+		</section>
+
+		<section>
+			<h2>Novidade do artigo relacionados</h2>
+			<p>Conteúdo da section 01</p>
+		</section>
+	</aside>
+
+	<footer>
+		<nav>
+			<h3>Navegação 01</h3>
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<h3>Navegação 02</h3>
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<h3>Navegação 03</h3>
+			<ul>
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+			</ul>
+		</nav>
+
+		<address>
+			<a href="mailto:jhonata01amboni@unesc.net">Para maior contato</a>
+		</address>	
+
+		<p>Copyright 2022 - Todos os direitos reservados.</p>
+	</footer>	
+</body>
+</html>
